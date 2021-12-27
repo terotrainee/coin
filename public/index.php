@@ -9,12 +9,12 @@ and open the template in the editor.
 final class Index
 {
     const DEFAULT_PAGE = 'home';
-    const PAGE_DIR = 'templates/';
-    const LAYOUT_DIR = 'layout/';
+    const PAGE_DIR = '../templates/';
+    const LAYOUT_DIR = '../layout/';
 
     private static $CLASSES = [
-        'Taulu' => '/classes/Taulu.php',
-        'Yhteys' => '/classes/Yhteys.php',
+        'Taulu' => '/../classes/Taulu.php',
+        'Yhteys' => '/../classes/Yhteys.php',
         
     ];
 
